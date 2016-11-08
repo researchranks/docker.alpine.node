@@ -1,4 +1,4 @@
-# Docker: Alpine | Node 6.4.0
+# Docker: Alpine | Node 6.9.1
 
 ### Setup:
  - folder structure for docker.alpine:
