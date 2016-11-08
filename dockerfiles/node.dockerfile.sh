@@ -10,6 +10,7 @@ WORKDIR /var/www/app
 # 	&& npm install --save -g http-server@0.9.0 \
 # 	&& npm cache clean
 
+# https://www.npmjs.com/package/http-server
 RUN echo 'installing node modules' \
     && npm install --save -g http-server@0.9.0 \
 	&& npm cache clean
