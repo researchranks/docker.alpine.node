@@ -1,4 +1,11 @@
+# OSX | MAC
 .DS_Store
-app/.DS_Store
-app/app.pass
-app/client_secret_1000787717323-58grjeakh6r07u1qh4ngbudgfpuqd38f.apps.googleusercontent.com.json
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+
+# NODE | NPM Modules
+app/node_modules
+/node_modules

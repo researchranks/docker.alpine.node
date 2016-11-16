@@ -3,7 +3,7 @@ version: '2'
 services:
 
   angular_app:
-    container_name: node.dev
+    container_name: node
     volumes:
      - ./app:/var/www/app/
     build:

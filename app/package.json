@@ -1,14 +1,15 @@
 {
-  "name": "angular2.dev",
+  "name": "docker.node.angular.cli.dev",
   "version": "0.0.1",
-  "main": "server.js",
-  "author": "cntmedia",
-  "description": "docker: minimal node setup with http-server",
+  "author": "@ResearchRanks",
+  "license": "MIT",
+  "description": "docker: angular-cli setup with lite-server & typescript",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "lite_server" : "lite-server",
+    "start": "npm run lite_server"
   },
   "dependencies": {
-    "http-server": "^0.9.1"
+    "lite-server": "^2.2.2"
   }
 }
