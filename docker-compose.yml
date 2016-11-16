@@ -11,8 +11,8 @@ services:
       #context: ./dockerfiles/
       dockerfile: ./dockerfiles/node.dockerfile.sh
 
-    image: cntmedia/node:latest
-    #image: cntmedia/node:6.9.1
+    image: cntmedia/alpine.node:latest
+    #image: cntmedia/alpine.node:6.9.1
     expose:
       - 8080
     ports:
