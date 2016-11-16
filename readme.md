@@ -5,13 +5,14 @@
 
  > var/www/app/
 
- - folder structure for the http-server:
+ - folder structure for the lite-server:
 
  > var/www/app/public/index.html
 
 ### NPM Installs
  
  - lite-server@2.2.2
+
  > small minimal http server for web view
 
 ### Example:
