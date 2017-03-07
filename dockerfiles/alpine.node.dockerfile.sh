@@ -11,6 +11,6 @@ RUN echo 'installing node modules' \
 	&& npm install --save -g lite-server@2.2.2 \
 	&& npm cache clean
 
-EXPOSE 8080
+#EXPOSE 8080
 
-CMD ["ash"]
+#CMD ["npm", "start"]
